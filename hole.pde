@@ -15,9 +15,9 @@ void draw() {
   translate(width/2,height/2);
   for (i=0;i<10;i++){
     rotate(sin(a*.004)*13) ;
-    scale(1);
+    scale(0.8);
  
-    ellipse(0,0,600,500+cos(a*.005)*120);
+    ellipse(0,0,600,900+cos(a*.008)*120);
   } 
  a++;
  saveFrame("frames/####.png");
